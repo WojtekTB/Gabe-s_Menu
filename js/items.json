@@ -1,0 +1,20 @@
+var foodItems = [
+  {
+    "name": "Dry Noodle Snack",
+    "description": "Dry noodle snack bought somewhere in Chinatown, holds a great amount of noodle and is sometimes spicy",
+    "price": 10,
+    "stock": 24,
+    "sale": false,
+    "discountPer": 0,
+    "image": "./images/DryNoodleSnack.jpg"
+  }
+  /* {
+    "name":,
+    "description":,
+    "price":,
+    "stock":,
+    "sale":,
+    "discountPer":,
+    "image":
+  }, */
+]
