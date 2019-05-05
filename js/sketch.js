@@ -1,10 +1,12 @@
-var itemList;
+var itemList = $.getJson("items.json", function(json) {
+    console.log(json); // this will show the info it in firebug console
+});
 var item;
 var cell;
 
-function preload(){
-  itemList = loadJSON("items.json");
-}
+// function preload(){
+//   itemList = loadJSON("items.json");
+// }
 
 function setup(){
   createCanvas(window.innerWidth, window.innerHeight);
